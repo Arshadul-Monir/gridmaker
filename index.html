@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gridmaker Clone</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <button id = "add_row" onclick = "addRow()">Add Row</button>
+        <button id = "add_col" onclick = "addCol()">Add Col</button>
+        <button id = "rem_row" onclick = "remRow()">Remove Row</button>
+        <button id = "rem_col" onclick = "remCol()">Remove Col</button>
+        <button id = "fill_blank" onclick = "fillBlank()">Fill All Uncolored</button>
+        <button id = "fill_all" onclick = "fill()">Fill All</button>
+        <button id = "clear" onclick = "clear()">Clear</button>
+        <select id="color">
+            <option value="SELECT">SELECT</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+        <table id = "grid">
+
+        </table>
+    </body>
+</html>
