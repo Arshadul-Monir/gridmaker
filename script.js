@@ -90,7 +90,7 @@ function remCol()
     }
 }
 
- function changeColor()
- {
+function changeColor()
+{
     color_selected = document.getElementById("color").value;
- }
+}
