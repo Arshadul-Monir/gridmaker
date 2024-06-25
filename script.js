@@ -56,3 +56,18 @@ function addCol()
         }
     }
 }
+
+function remRow()
+{
+    let grid = document.getElementById("grid");
+    const rows = document.getElementsByTagName("tr");
+
+    if(rows.length == 0)
+    {
+        alert("There is nothing to delete");
+    }
+    else
+    {
+        grid.removeChild(grid.lastElementChild);
+    }
+}
