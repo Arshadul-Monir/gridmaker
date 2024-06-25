@@ -94,3 +94,15 @@ function changeColor()
 {
     color_selected = document.getElementById("color").value;
 }
+
+function fillBlank()
+{
+    let cells = document.getElementsByTagName("td");
+    for(let i = 0; i < cells.length; i++)
+    {
+        if(cells[i].style.backgroundColor == '')
+        {
+            cells[i].style.backgroundColor = color_selected;
+        }
+    }
+}
