@@ -106,3 +106,12 @@ function fillBlank()
         }
     }
 }
+
+function fill()
+{
+    let cells = document.getElementsByTagName("td");
+    for(let i = 0; i < cells.length; i++)
+    {
+        cells[i].style.backgroundColor = color_selected;
+    }
+}
