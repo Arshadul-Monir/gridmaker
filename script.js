@@ -71,3 +71,21 @@ function remRow()
         grid.removeChild(grid.lastElementChild);
     }
 }
+
+function remCol()
+{
+    let grid = document.getElementById("grid");
+    const rows = document.getElementsByTagName("tr");
+
+    if(rows.length == 0)
+    {
+        alert("There is nothing to delete");
+    }
+    else
+    {
+        for(let i = 0; i < rows.length; i++)
+        {
+            rows[i].removeChild(rows[i].lastElementChild);
+        }
+    }
+}
