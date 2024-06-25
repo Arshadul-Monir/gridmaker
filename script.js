@@ -89,3 +89,8 @@ function remCol()
         }
     }
 }
+
+ function changeColor()
+ {
+    color_selected = document.getElementById("color").value;
+ }
